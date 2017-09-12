@@ -2,7 +2,7 @@ module Math.FizzBuzz
   ( toFizz
   ) where
 
-import Control.Monad.Instances
+--import Control.Monad.Instances
 
 toFizz :: Int -> String
 toFizz = do
