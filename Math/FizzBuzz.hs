@@ -6,8 +6,8 @@ module Math.FizzBuzz
 
 toFizz :: Int -> String
 toFizz = do
-  f <- (== 0) . (flip mod 3)
-  b <- (== 0) . (flip mod 5)
+  f <- (== 0) . flip mod 3
+  b <- (== 0) . flip mod 5
   p <- show
   return $
     case [f, b] of
