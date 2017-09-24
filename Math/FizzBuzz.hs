@@ -3,7 +3,6 @@ module Math.FizzBuzz
   ) where
 
 --import Control.Monad.Instances
-
 toFizz :: Int -> String
 toFizz = do
   f <- (== 0) . flip mod 3
