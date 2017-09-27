@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 dist
 dist-*
 cabal-dev
@@ -20,10 +20,10 @@ cabal.sandbox.config
 cabal.project.local
 Main
 *.png
-=======
+
 *.o
 *.hi
-*.txt
+
 *.pdf
 lists1
 test6
@@ -31,5 +31,5 @@ systemInterOp
 Lyndon
 ngon
 .tar.gz
->>>>>>> 10ffc5074c0e69424801c4ea235d48365bfe1a00
+
 
